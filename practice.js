@@ -18,7 +18,7 @@ me = {
   name: 'Adam',
   age: '1000'
 }
-alert(me.name)
+// alert(me.name)
 
 ////////// PROBLEM 2 //////////
 
@@ -69,7 +69,7 @@ backPack.color = 'blue'
 */
 
 //Code here
-alert(backPack)
+// alert(backPack)
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -118,11 +118,11 @@ methodCollection = {}
 */
 
 //Code Here
-methodCollection.alertHello = function alertHello(){
+methodCollection.alertHello = function(){
   alert('hello')
 }
 
-methodCollection.loghello = function logHello(){
+methodCollection.logHello = function(){
   console.log('hello')
 }
 /*
